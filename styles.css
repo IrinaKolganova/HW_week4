@@ -1,0 +1,55 @@
+.img {
+    background-image: url("photo.png");
+
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+  }
+  #logotip {
+    color: aliceblue;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 45%;
+    top: 250px;
+  }
+
+  p.text2 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    top: 350px;
+  }
+  button {
+    width: 50%;
+  }
+
+  button:hover {
+    width: 100%;
+  } /* изменение происходит при наведении (увеличивается ширина блока) */
+
+  button:active {
+    /* изменение происходит при нажатии (блок смещается вниз) */
+    position: relative;
+    top: 10px;
+  }
+  a:link {
+    color: blue;
+  } /* не посещённые ссылки */
+
+  a:visited {
+    color: green;
+  } /* посещённые ссылки */
+  p {
+    font-family: "jost", times, serif;
+  }
